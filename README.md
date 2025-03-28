@@ -47,7 +47,7 @@ README.md                   # ReadMe file
 ## Compile the Cpp Module
 
 ### Prerequisites (Cpp module)
-- OpenCV == 3.4.11 (*recommended*), 
+- OpenCV == 3.4.18 (*recommended*), 
 - Boost == 1.74 (*recommended*), 
 - cmake >= 2.8
 
@@ -73,7 +73,7 @@ README.md                   # ReadMe file
 
 ### OpenCV installation on Ubuntu
 Follow the webpage: `https://learnopencv.com/install-opencv-3-4-4-on-ubuntu-16-04/` <br>
-RVPD_WACV25 can run on `OpenCV-3.4.18`. This has been tested. `3.4.11` is not as reliable as `3.4.18` <br>
+RVPD_WACV25 can run on `OpenCV-3.4.18`. This has been tested. <br>
 Based on the aforementioned webpage, consider the following cmake prefix
 ```
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
