@@ -1,5 +1,6 @@
 # RVPD: Recurrence-based Vanishing Point Detection
-This repository contains the official implementation of the paper: [Skanda Bharadwaj](https://www.skandabharadwaj.com/), [Robert T. Collins](https://www.cse.psu.edu/~rtc12/) and [Yanxi Liu](https://www.cse.psu.edu/~yul11/), "Recurrence-based Vanishing Point Detection", WACV 2025.
+This repository contains the official implementation of the paper: [Skanda Bharadwaj](https://www.skandabharadwaj.com/), [Robert T. Collins](https://www.cse.psu.edu/~rtc12/) and [Yanxi Liu](https://www.cse.psu.edu/~yul11/), "[Recurrence-based Vanishing Point Detection](https://doi.org/10.48550/arXiv.2412.20666)", *Proceedings of the Winter Conference on Applications of Computer Vision (WACV)*,
+February 2025, pp. 8909–8918.
 
 ## Introduction
 Classical approaches to Vanishing Point Detection rely solely on the presence of explicit straight lines in images. In this paper, we propose an alternative novel unsupervised approach: Recurrence-based Vanishing Point Detection, that uses implicit lines derived from discovered recurrences in addition to explicit lines. Furthermore, we contribute two new VPD datasets: 1. a Synthetic Image dataset with 3,200 ground truth vanishing points, and 2. a Real-World Image dataset with 1,400 human annotated vanishing points. We establish VPD benchmarks quantitatively and qualitatively by comparing with different VPD algorithms including deep learning methods and classical methods.
@@ -102,4 +103,15 @@ Note that `Tbb` and `FFMPEG` are `OFF`: `-D WITH_TBB=OFF \ -D WITH_FFMPEG=OFF \`
 If `QT` happens to throw errors when building opencv consider switching off `QT` or <br>
 try `apt-get install qtbase5-dev` and `apt-get install qtdeclarative5-dev`
 
-
+### Citing R-VPD
+```bash
+@misc{bharadwaj2025recurrencebasedvanishingpointdetection,
+      title={Recurrence-based Vanishing Point Detection}, 
+      author={Skanda Bharadwaj and Robert Collins and Yanxi Liu},
+      year={2025},
+      eprint={2412.20666},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.20666}, 
+}
+```
