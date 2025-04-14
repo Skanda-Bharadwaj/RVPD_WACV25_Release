@@ -105,13 +105,12 @@ try `apt-get install qtbase5-dev` and `apt-get install qtdeclarative5-dev`
 
 ### Citing R-VPD
 ```bash
-@misc{bharadwaj2025recurrencebasedvanishingpointdetection,
-      title={Recurrence-based Vanishing Point Detection}, 
-      author={Skanda Bharadwaj and Robert Collins and Yanxi Liu},
-      year={2025},
-      eprint={2412.20666},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2412.20666}, 
+@inproceedings{bharadwaj2025recurrence,
+  title={Recurrence-Based Vanishing Point Detection},
+  author={Bharadwaj, Skanda and Collins, Robert T and Liu, Yanxi},
+  booktitle={2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  pages={8927--8936},
+  year={2025},
+  organization={IEEE}
 }
 ```
